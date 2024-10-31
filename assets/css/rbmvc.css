@@ -1,0 +1,28 @@
+.widget ul.rbmvc li {
+    position: relative;
+    display: block;
+}
+.widget ul.rbmvc li a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+.widget ul.rbmvc li a:hover{
+    text-decoration: underline;
+}
+
+.widget ul.rbmvc li .views-count {
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    background-color: transparent;
+    border-radius: 2px;
+    color: white;
+    height: 16px;
+    width: 16px;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    background-image: url('../img/comment2.png');
+}
